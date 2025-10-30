@@ -25,7 +25,7 @@ fi
 
 # Iniciar servidor
 echo "🎮 Iniciando servidor Minecraft..."
-screen -S minecraft -d -m java -Xmx15G -Xms15G -XX:+UseG1GC -XX:G1HeapRegionSize=16M -XX:G1MaxNewSizePercent=45 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1NewSizePercent=30 -jar forge-1.21.1-52.1.0-shim.jar.jar nogui
+screen -S minecraft -d -m java -Xmx15G -Xms15G -XX:+UseG1GC -XX:G1HeapRegionSize=16M -XX:G1MaxNewSizePercent=45 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1NewSizePercent=30 -jar forge-1.21.1-52.1.0-shim.jar nogui
 
 echo "✅ Servidor iniciado en la sesión de 'screen'."
 echo "📝 Para ver la consola: screen -r minecraft"

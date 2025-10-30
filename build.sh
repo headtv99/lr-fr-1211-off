@@ -68,7 +68,7 @@ fi
 
 java -jar forge.jar nogui
 
-java -jar server.jar nogui
+java -jar forge-1.21.1-52.1.0-shim.jar --onlyCheckJava || exit 1
 
 # Copiar el archivo
 if cp "$ruta_archivo_eula" "$ruta_server"; then
