@@ -49,7 +49,7 @@ clear
 echo "Rclone configurado... Instalando Server"
 cd ./lrxof
 
-java -jar neo209.jar --installServer
+java -jar forge.jar --installServer
 
 
 ruta_archivo_memoria="/workspaces/lr-fr-1211-off/user_jvm_args.txt"
